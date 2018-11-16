@@ -1,0 +1,122 @@
+.bgr{
+	height: 799px;
+	background: url(../img/gedoujia/list_kv.jpg) center top no-repeat;
+}
+.all{
+	height: 1259px;
+	background: url(../img/gedoujia/list_bg.jpg) center top no-repeat;
+}
+.allcon{
+	width: 1200px;height: 1146px;
+	margin: 0 auto;
+	position: relative;
+	top: -100px;
+	background: url(../img/gedoujia/list_topbg.png)no-repeat;
+}
+.titlel{
+	width: 300px;height: 44px;
+}
+.titlel a:nth-child(1){
+	display: inline-block;
+	width: 103px;height: 20px;
+	background: url(../img/gedoujia/icon.png) -214px -170px no-repeat;
+	padding-left: 25px;
+	box-sizing: border-box;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: #c92117;
+	font-size: 13px;
+	float: left;
+	text-decoration: underline;
+}
+.titlel span{
+	display: inline-block;
+	float: left;
+	width: 15px;height: 20px;
+	background: url(../img/gedoujia/icon.png) -388px -57px no-repeat;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.zhan{
+	display: inline-block;
+	float: left;
+	width: 52px;height: 20px;
+	font-size: 13px;
+	color: #c92117;
+	text-decoration: underline;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.ssr{
+	width: 560px;height: 120px;
+	margin-left: 220px;
+	float: left;
+}
+.ssr li{
+	width: 111px;height: 120px;
+	float: left;
+	background: url(../img/gedoujia/select_def.png) left center no-repeat;
+	line-height: 120px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	font-size: 24px;
+	color: #919191;
+	cursor: pointer;
+}
+.ssr li.alli{
+	color: #c11f15;
+	background: url(../img/gedoujia/select_cur.png) left center no-repeat;
+}
+.shuru{
+	width: 320px;height: 50px;
+	float: right;
+	border: 1px solid #ababab;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+.shuru input{
+	width: 268px;height: 52px;
+	border: 0;
+	background: none;
+	float: left;
+	font-size: 18px;
+	text-indent: 11px;
+}
+.shuru span{
+	display: inline-block;
+	width: 51px;height: 51px;
+	float: right;
+	background: url(../img/gedoujia/icon_search.png) center center no-repeat;
+	background-size: 19px;
+	border-left: 1px solid #ABABAB;
+}
+.rolelist{
+	width: 1250px;height: 924px;
+	margin: 180px auto 0;
+}
+.rolelist li{
+	width: 108px;height: 154px;
+	float: left;
+	margin-right: 29px;
+}
+.rolelist li img{
+	width: 108px;height: 110px;
+	filter: grayscale(100%);
+	transition: all 0.3s;
+}
+.rolelist li p{
+	text-align: center;
+	color: #545454;
+	line-height: 25px;
+}
+.rolelist li:hover p{color: #f0271b;}
+.rolelist li:hover img{
+	filter: grayscale(0%);
+}
+
+
+
+.footerbo{
+	color: white;
+	text-align: center;
+}

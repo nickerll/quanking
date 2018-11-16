@@ -1,0 +1,479 @@
+.bgr{
+	height: 708px;
+	background: url(../img/fensi/bg121.jpg) center top no-repeat;
+}
+.bgrco{
+	width: 1200px;height: 708px;
+	margin-left: 74px;
+	background: url(../img/fensi/bgs1.jpg)center top no-repeat;
+}
+.mingyun{
+	display: inline-block;
+	float: left;
+	width: 167px;height: 52px;
+	background: url(../img/fensi/indexlogo.png);
+	margin-top: 25px;
+}
+.guanwang{
+	display: inline-block;
+	width: 160px;height: 42px;
+	background: url(../img/fensi/gethome.png);
+	float: right;
+	margin-top: 25px;
+
+}
+.content{
+	height: 2297px;
+	background: url(../img/fensi/bg122.jpg) center 0 no-repeat;
+}
+.coco{
+	width: 1200px;
+	height: 2297px;
+	background: url(../img/fensi/bgs2.jpg) no-repeat;
+	margin-left: 79px;
+	position: relative;
+}
+.cotitle{
+	height: 90px;
+	background: url(../img/fensi/nav-bg.jpg)no-repeat;
+	position: relative;
+	top: -45px;
+}
+.cotitle ul{
+	width: 880px;height: 90px;
+	margin: 0 auto;
+}
+.cotitle ul li{
+	width: 220px;height: 90px;
+	float: left;
+}
+.cotitle ul li a{
+	display: inline-block;
+	width: 220px;height: 84px;
+	background: url(../img/fensi/nav-sp.png) -147px 0 no-repeat;
+}
+.cotitle ul li:nth-child(2) a{background-position: -367px 0;}
+.cotitle ul li:nth-child(3) a{background-position: -587px 0;}
+.cotitle ul li:nth-child(4) a{background-position: -807px 0;}
+.cotitle ul li:hover a{
+	border-bottom: 6px solid #d00000;
+	background-position: -147px -90px;
+}
+.cotitle ul li a span{
+	display: inline-block;
+	width: 74px;height: 84px;
+	background: url(../img/fensi/top-nav-pic1.png)no-repeat;
+	display: none;
+}
+.cotitle ul li:hover a span{display: block;}
+.cotitle ul li:nth-child(2) a span{background: url(../img/fensi/top-nav-pic2.png);}
+.cotitle ul li:nth-child(3) a span{background: url(../img/fensi/top-nav-pic3.png);}
+.cotitle ul li:nth-child(4) a span{background: url(../img/fensi/top-nav-pic4.png);}
+.cotitle ul li:nth-child(2):hover a{background-position: -367px -90px;}
+.cotitle ul li:nth-child(3):hover a{background-position: -587px -90px;}
+.cotitle ul li:nth-child(4):hover a{background-position: -807px -90px;}
+.bannerbox{
+	height: 359px;
+	margin-bottom: 42px;
+}
+.bannerleft{
+	width: 930px;height: 359px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.banlco{width: 1860px;height: 359px;position: absolute;left: 0;}
+.bannerright{
+	width: 250px;height: 358px;
+	float: right;
+	background: url(../img/fensi/ewm-box.jpg)no-repeat;
+	position: relative;
+}
+.ewm{
+	width: 165px;height: 164px;
+	margin: 86px auto 0;
+}
+.ewm img{width: 100%;height: 100%;}
+.lin{
+	width: 192px;height: 13px;
+	background: url(../img/fensi/sp.png) -210px 0 no-repeat;
+	display: inline-block;
+	position: absolute;
+	top: 94px;left: 30px;
+	animation: up 2s linear infinite;
+}
+@keyframes up{
+	0%{transform: translateY(160px);}
+	50%{transform: translateY(0px);}
+	100%{transform: translateY(160px);}
+}
+.dama{
+	width: 120px;height: 17px;
+	margin: 10px auto;
+	color: white;
+	position: relative;
+}
+.dama span{
+	width: 10px;height: 17px;
+	background: url(../img/fensi/sp.png) -402px 0 no-repeat;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+}
+.dowxia{
+	width: 210px;height: 49px;
+	background: url(../img/fensi/sp.png)no-repeat;
+	margin: 0 auto;
+	animation: xia 2s linear infinite;
+	cursor: pointer;
+}
+@keyframes xia{
+	0%{transform: scale(1.02);}
+	50%{transform: scale(1);}
+	100%{transform: scale(1.02);}
+}
+.dowxia p{
+	font-size: 16px;
+	text-align: center;
+	line-height: 49px;
+	color: white;
+	font-weight: bold;
+	margin-left: 16px;
+}
+.zhuanqu{
+	width: 1200px;height: 1232px;
+	margin: 0 auto;
+}
+.tonzhua{
+	height: 84px;
+	background: url(../img/fensi/st-fans.png)no-repeat;
+	margin-bottom: 30px;
+}
+.tuqiang{
+	width: 1198px;height: 560px;
+	border: 1px solid #5d5f6f;
+}
+.qian{
+	display: inline-block;
+	width: 100px;height: 25px;
+	float: left;
+	background: url(../img/fensi/sp.png) 0 -160px no-repeat;
+	margin: 20px 0 0 20px;
+}
+.lool{
+	display: inline-block;
+	width: 100px;height: 32px;
+	float: right;
+	background-color: #bf0808;
+	margin: 20px 20px 0 0;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+}
+.zuixin{
+	width: 1158px;height: 40px;
+	margin: 0 auto 20px;
+	margin-top: 80px;
+}
+.zuixin li{
+	width: 193px;height: 39px;
+	float: left;
+	text-align: center;
+	line-height: 39px;
+	font-size: 20px;
+	color: #797b99;
+	border-bottom: 2px solid #797b99;
+	position: relative;
+}
+.zuixin li a{
+	display: inline-block;
+	width: 193px;height: 39px;
+	line-height: 39px;
+	color: #797b99;
+}
+.zuixin li i{
+	display: inline-block;
+	width: 1px;height: 20px;
+	background: #797b99;
+	float: right;
+	margin-top: -30px;
+}
+.zuixin li a.zui{
+	color: #d00000;
+    border-bottom: 2px solid #d00000;
+    padding-left: 20px;
+}
+.zuixin li span{
+	width: 43px;height: 40px;
+	display: inline-block;
+	background: url(../img/fensi/sp.png) 0 -240px no-repeat;
+	position: absolute;
+	bottom: -2px;left: 50px;
+}
+.picwall{
+	width: 1180px;height: 371px;
+	margin: 15px auto;
+	overflow: hidden;
+	float: right;
+}
+/* .tabb{} */
+.tabb ul li{
+	width: 275px;height: 170px;
+	float: left;
+	margin: 0 20px 30px 0;
+	position: relative;
+}
+.tabb ul li img{
+	width: 100%;
+	height: 100%;
+}
+.tabb ul li p{
+	width: 100%;
+	height: 40px;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	bottom: 0;
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.tabb ul li:hover .zhez{display: block;}
+.zhez{
+	width: 275px;height: 170px;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;left: 0;
+	display: none;
+}
+.zhez span{
+	display: block;
+	width: 52px;height: 52px;
+	background: url(../img/fensi/sp.png) -210px -49px no-repeat;
+	margin: 40px auto;
+}
+
+.tvguan{
+	width: 1200px;
+	height: 526px;
+	margin: 30px auto;
+}
+.tvleft{
+	width: 590px;height: 526px;
+	float: left;
+	background: url(../img/fensi/tv-box.jpg)no-repeat;
+}
+.tvleft h2{
+	width: 550px;height: 35px;
+	margin: 15px auto;
+}
+.tvone{
+	display: inline-block;
+	width: 109px;height: 28px;
+	float: left;
+	background: url(../img/fensi/sp.png) 0 -185px no-repeat;
+}
+.moo{
+	display: inline-block;
+	float: right;
+	width: 96px;height: 28px;
+	border: 2px solid white;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+}
+.tvnew{
+	width: 550px;height: 32px;
+	margin: 0 auto;
+}
+.tvnew li{
+	float: left;
+	width: 110px;height: 32px;
+	float: left;
+	text-align: center;
+	line-height: 32px;
+	color: #dadada;
+	font-size: 16px;
+	border-bottom: 2px solid #DADADA;
+}
+.tvnew li i{
+	display: inline-block;
+	float: right;
+	width: 1px;height: 18px;
+	background: #9b9b9b;
+	margin-top: 8px;
+}
+.tvco{
+	width: 566px;height: 386px;
+	margin: 15px auto;
+	float: right;
+	margin-right: 5px;
+}
+.tvco ul li{
+	width: 268px;height: 169px;
+	float: left;
+	margin: 0 15px 24px 0;
+}
+.tvco ul li p{color: white;margin-left: 10px;}
+.tvco ul li img{
+	width: 100%;height: 145px;
+}
+.tvright{
+	width: 589px;height: 524px;
+	border: 1px solid #5d5f6f;
+	float: right;
+}
+.tvright h2{
+	width: 552px;height: 35px;
+	margin: 15px auto;
+}
+.tvrit1{
+	width: 105px;height: 24px;
+	display: inline-block;
+	float: left;
+	background: url(../img/fensi/sp.png) 0 -213px no-repeat;
+}
+.tvrit2{
+	display: inline-block;
+	width: 100px;height: 32px;
+	float: right;
+	line-height: 32px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	background: #bf0808;
+}
+.gushi{
+	width: 552px;height: 32px;
+	margin: 0 auto;
+}
+.gushi li{
+	width: 184px;height: 32px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+	color: #797b99;
+	border-bottom: 2px solid #797b99;
+}
+.gushi li i{
+	display: inline-block;
+	width: 1px;height: 18px;
+	background: #9b9b9b;
+	float: right;
+	margin-top: 7px;
+}
+.tvrico{
+	width: 574px;height: 390px;
+	float: right;
+	margin-top: 15px;
+}
+.tvrico ul li{
+	width: 267px;height: 177px;
+	float: left;
+	margin: 0 20px 20px 0;
+	position: relative;
+}
+.tvrico ul li img{
+	width: 100%;height: 100%;
+}
+.tvrico ul li p{
+	width: 267px;height: 40px;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	bottom: 0;
+	line-height: 40px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	color: white;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.zixunhuodong{
+	width: 1200px;height: 84px;
+	background: url(../img/fensi/st-inf.png);
+	margin-top: 40px;
+}
+.zixun{
+	height: 366px;
+	margin-top: 30px;
+}
+.zileft{
+	width: 698px;height: 366px;
+	float: left;
+	background: #3a3c4a;
+}
+.zileft h1{
+	width: 657px;height: 35px;
+	margin: 20px auto;
+}
+.zuizi{
+	width: 168px;height: 32px;
+	display: inline-block;
+	float: left;
+	background: url(../img/fensi/sp.png) 0 -98px no-repeat;
+}
+.ziright{
+	width: 502px;height: 366px;
+	float: right;
+	background: url(../img/fensi/active-box.jpg);
+}
+.xinwen{
+	width: 657px;height: 356px;
+	margin: 20px auto;
+}
+.xinwen li{
+	height: 68px;
+	border-top: 1px solid #5d5f6f;
+	line-height: 68px;
+	font-size: 14px;
+	color: #d7d7d7;
+	cursor: pointer;
+}
+.xinwen li p{
+	width: 525px;float: left;
+}
+.xinwen li span{
+	width: 90px;
+	float: right;
+}
+.xinwen li:hover{color: white;}
+.ziright ul{
+	width: 500px;height: 274px;
+	margin: 92px auto 0;
+}
+.ziright ul li{
+	width: 220px;height: 113px;
+	float: left;
+	margin: 0 10px 20px 15px;
+	position: relative;
+	overflow: hidden;
+}
+.ziright ul li p{
+	width: 220px;height: 32px;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	line-height: 32px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.ziright ul li img{transition: all 0.3s;}
+.ziright ul li:hover img{transform: scale(1.05);}
+
+.daibiao{
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+.footerbo{
+	color: white;
+	text-align: center;
+}

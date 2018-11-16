@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+#certify {
+	position: relative;
+	width: 1200px;
+	height: 540px;
+	margin: 80px auto
+}
+
+/* #certify .swiper-container {
+	padding-bottom: 60px;
+} */
+
+#certify  .swiper-slide {
+	width: 872px;
+	height: 506px;
+	position: relative;
+	overflow: hidden;
+}
+#certify  .swiper-slide img{
+	display:block;
+	position: absolute;
+	top: 0;
+}
+#certify  .swiper-slide p {
+	line-height: 98px;
+	padding-top: 0;
+	text-align: center;
+	color: #636363;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: 0px;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+	border: 3px solid #fff;
+	background-color: #d5d5d5;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	border: 3px solid #00aadc;
+	background-color: #fff;
+}
+
+#certify .swiper-button-prev {
+	left: 30px;
+	width: 41px;
+	height: 79px;
+	background: url(../img/spr.png) -115px -125px no-repeat;
+	/* background-size: 100%; */
+}
+
+/* #certify .swiper-button-prev:hover {
+	background-position: 0 -46px;
+	background-size: 100%
+} */
+
+#certify .swiper-button-next {
+	right: 30px;
+	width: 41px;
+	height: 79px;
+	background: url(../img/spr.png) -193px -125px no-repeat;
+	/* background-size: 100%; */
+}
+
+/* #certify .swiper-button-next:hover {
+	background-position: 0 -139px;
+	background-size: 100%
+} */

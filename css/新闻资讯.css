@@ -1,0 +1,138 @@
+.bgr{
+	height: 1798px;
+	background: url(../img/index-bg.jpg) white center top no-repeat;
+}
+nav{
+	background: rgba(0,0,0,0.8);
+}
+.content-box{
+	width: 1200px;height: 1166px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	top: 444px;
+	margin-bottom: 60px;
+}
+.cobole{
+	width: 247px;height: 976px;
+	float: left;
+	background: url(../img/left-nav-bg.png) no-repeat;
+}
+.cobole a{
+	display: block;
+	width: 247px;height: 55px;
+	margin-top: 4px;
+}
+.cobole .apple{margin-top: 255px;}
+.ggbox{
+	width: 247px;height: 140px;
+	margin-top: 13px;
+	overflow: hidden;
+	position: relative;
+}
+.gbox{
+	width: 998px;height: 140px;
+	position: absolute;
+	left: 0;top:-4px;
+	transition: all 0.5s;
+}
+.gbox a{
+	display: inline-block;
+	width: 247px;height: 120px;
+	float: left;
+}
+.gbox a img{width: 100%;height: 100%;}
+.btn1{
+	width: 80px;height: 20px;
+	position: absolute;
+	bottom: 0;
+}
+.btn1 span{
+	display: inline-block;
+	width: 14px;height: 14px;
+	border-radius: 50%;
+	background: #878787;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+.cobole .in{
+	margin-top: 175px;
+	margin-left: 109px;
+	width: 73px;height: 30px;
+}
+.cobole .backin{
+	margin-top: 47px;
+	height: 80px;
+}
+.cobole .top1{transition: all 10s;}
+.cobori{
+	width: 940px;height:1166px;
+	float: right;
+	background: white;
+}
+.title{
+	height: 80px;
+	background: #f2f2f2;
+}
+.titwe{
+	width: 196px;height: 49px;
+	display: inline-block;
+	float: left;
+	margin-top: 13px;
+	margin-left: 20px;
+	background: url(../img/news-logo.png)no-repeat;
+}
+.weizhi{
+	width: 200px;height: 30px;
+	float: right;
+	font-size: 14px;
+	margin-top: 25px;
+	color: #918D8D;
+}.weizhi a{color: #918D8D;}
+.listab{height: 1086px;}
+.fournew{height: 51px;
+border-bottom: 1px solid #ede5e2;
+margin-top: 10px;margin-bottom: 20px;}
+.fournew a:nth-child(1){margin-left: 45px;}
+.fournew a{
+	display: inline-block;
+	width: 210px;height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 23px;
+	color: #8c5f4b;
+}
+.fournew a.on2{
+	background: url(../img/nav-bg.png) 52px -29px no-repeat;
+	font-weight: 700;
+}
+.xin{
+	width: 900px;
+	margin: 15px auto;
+}
+.xin li{
+	height: 60px;
+	border-bottom: 1px solid #dcd0cf;
+}
+.xin li a p{
+	width: 745px;height: 25px;
+	float: left;
+	font-size: 17px;
+	color: #742e28;
+	line-height: 61px;
+}
+.xin li a span{
+	display: block;
+	width: 102px;
+	float: right;
+	color: #b4856b;
+	line-height: 61px;
+}
+.next{
+	width: 137px;height: 50px;
+	display: block;
+	background: url(../img/btn-next.png)no-repeat;
+	float: right;
+	margin-top: 35px;
+	margin-right: 250px;
+}

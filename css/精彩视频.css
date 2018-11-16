@@ -1,0 +1,35 @@
+.titwe{
+	background: url(../img/video-logo.png);
+}
+.fournew a:nth-child(1) { margin-left:0;}
+.fournew a{width: 185px;}	
+.xin li{
+	width: 270px;height: 152px;
+	float: left;
+	margin: 15px 15px;
+	position: relative;
+	cursor: pointer;
+}
+.xin li img{width: 100%;height: 100%;}
+.xin li p{
+	width: 270px;height: 35px;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.7);
+	line-height: 35px;
+	font-size: 16px;
+	color: white;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.zhebo{
+	width: 275px;height: 152px;
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,0.5) url(../img/shipin/btn-play.png) center center no-repeat;
+	opacity: 0;
+	transition: all 0.3s;
+}
+.xin li:hover .zhebo{opacity: 1;}
+
